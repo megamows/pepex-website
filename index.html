@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PEPEX - Meme Coin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>PEPEX</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="https://dexscreener.com" target="_blank">Buy PEPEX</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to PEPEX</h2>
+        <p>Your favorite meme coin for the future!</p>
+        <a href="https://dexscreener.com" target="_blank" class="buy-btn">Buy PEPEX</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose PEPEX?</h2>
+        <div class="feature-item">
+            <h3>Decentralized</h3>
+            <p>PEPEX is fully decentralized and community-driven.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Secure</h3>
+            <p>Transactions are fast, secure, and reliable.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Memetic Power</h3>
+            <p>Built for meme enthusiasts who want to make a difference!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About PEPEX</h2>
+        <p>PEPEX is a meme coin that's taking the crypto world by storm. Inspired by memes and the power of decentralization, it offers a fun and unique investment opportunity!</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 PEPEX. All rights reserved.</p>
+        <p>Follow us on social media!</p>
+    </footer>
+
+    <script>
+        particlesJS("hero", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 }},
+                color: { value: "#ffffff" },
+                shape: { type: "circle", stroke: { width: 0, color: "#000000" }},
+                opacity: { value: 0.5, random: false, anim: { enable: false }},
+                size: { value: 5, random: true, anim: { enable: false }},
+                line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 6, direction: "none", random: false, straight: false, out_mode: "out", bounce: false }
+            },
+            interactivity: {
+                detect_on: "window",
+                events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }},
+                modes: { repulse: { distance: 100, duration: 0.4 }, push: { particles_nb: 4 }}
+            },
+            retina_detect: true
+        });
+    </script>
+
+</body>
+</html>
